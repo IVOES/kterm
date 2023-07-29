@@ -1,0 +1,20 @@
+keyboard.c:90:5: error: syntax error [syntaxError]
+    D printf("setting layout %d, caps: %i\n", kb_type, only_caps);
+    ^
+kindle.c:139:5: error: syntax error [syntaxError]
+    D printf("dbus support not compiled\n");
+    ^
+kindle.c:51:5: error: syntax error [syntaxError]
+    if G_UNLIKELY(!connection) {
+    ^
+kterm.c:52:5: error: syntax error [syntaxError]
+    D printf("exiting on signal %i\n", signo);
+    ^
+parse_config.c:34:5: error: syntax error [syntaxError]
+    D printf("Parsing config file\n");
+    ^
+parse_layout.c:141:9: error: syntax error [syntaxError]
+        D printf("Too many rows\n");
+        ^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
